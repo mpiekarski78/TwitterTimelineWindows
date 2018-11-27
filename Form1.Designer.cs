@@ -69,6 +69,7 @@
             // 
             this.streamTimeline.BackColor = System.Drawing.Color.Black;
             this.streamTimeline.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.streamTimeline.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.streamTimeline.Location = new System.Drawing.Point(7, 7);
             this.streamTimeline.Name = "streamTimeline";
             this.streamTimeline.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -82,7 +83,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 28);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(210, 1368);
+            this.tabPage2.Size = new System.Drawing.Size(287, 1368);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Browser";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -93,7 +94,7 @@
             this.browser.Location = new System.Drawing.Point(3, 3);
             this.browser.MinimumSize = new System.Drawing.Size(20, 20);
             this.browser.Name = "browser";
-            this.browser.Size = new System.Drawing.Size(204, 1362);
+            this.browser.Size = new System.Drawing.Size(281, 1362);
             this.browser.TabIndex = 0;
             this.browser.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.browser_DocumentCompleted_1);
             // 
